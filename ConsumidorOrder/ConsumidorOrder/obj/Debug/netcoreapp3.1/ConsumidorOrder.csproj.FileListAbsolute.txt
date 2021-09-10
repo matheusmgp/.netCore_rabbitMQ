@@ -1,0 +1,16 @@
+E:\projetos\.net Core\rabbitMQ\ConsumidorOrder\ConsumidorOrder\bin\Debug\netcoreapp3.1\ConsumidorOrder.exe
+E:\projetos\.net Core\rabbitMQ\ConsumidorOrder\ConsumidorOrder\bin\Debug\netcoreapp3.1\ConsumidorOrder.deps.json
+E:\projetos\.net Core\rabbitMQ\ConsumidorOrder\ConsumidorOrder\bin\Debug\netcoreapp3.1\ConsumidorOrder.runtimeconfig.json
+E:\projetos\.net Core\rabbitMQ\ConsumidorOrder\ConsumidorOrder\bin\Debug\netcoreapp3.1\ConsumidorOrder.runtimeconfig.dev.json
+E:\projetos\.net Core\rabbitMQ\ConsumidorOrder\ConsumidorOrder\bin\Debug\netcoreapp3.1\ConsumidorOrder.dll
+E:\projetos\.net Core\rabbitMQ\ConsumidorOrder\ConsumidorOrder\bin\Debug\netcoreapp3.1\ConsumidorOrder.pdb
+E:\projetos\.net Core\rabbitMQ\ConsumidorOrder\ConsumidorOrder\bin\Debug\netcoreapp3.1\RabbitMQ.Client.dll
+E:\projetos\.net Core\rabbitMQ\ConsumidorOrder\ConsumidorOrder\bin\Debug\netcoreapp3.1\System.Threading.Channels.dll
+E:\projetos\.net Core\rabbitMQ\ConsumidorOrder\ConsumidorOrder\obj\Debug\netcoreapp3.1\ConsumidorOrder.csproj.AssemblyReference.cache
+E:\projetos\.net Core\rabbitMQ\ConsumidorOrder\ConsumidorOrder\obj\Debug\netcoreapp3.1\ConsumidorOrder.AssemblyInfoInputs.cache
+E:\projetos\.net Core\rabbitMQ\ConsumidorOrder\ConsumidorOrder\obj\Debug\netcoreapp3.1\ConsumidorOrder.AssemblyInfo.cs
+E:\projetos\.net Core\rabbitMQ\ConsumidorOrder\ConsumidorOrder\obj\Debug\netcoreapp3.1\ConsumidorOrder.csproj.CoreCompileInputs.cache
+E:\projetos\.net Core\rabbitMQ\ConsumidorOrder\ConsumidorOrder\obj\Debug\netcoreapp3.1\ConsumidorOrder.csproj.CopyComplete
+E:\projetos\.net Core\rabbitMQ\ConsumidorOrder\ConsumidorOrder\obj\Debug\netcoreapp3.1\ConsumidorOrder.dll
+E:\projetos\.net Core\rabbitMQ\ConsumidorOrder\ConsumidorOrder\obj\Debug\netcoreapp3.1\ConsumidorOrder.pdb
+E:\projetos\.net Core\rabbitMQ\ConsumidorOrder\ConsumidorOrder\obj\Debug\netcoreapp3.1\ConsumidorOrder.genruntimeconfig.cache

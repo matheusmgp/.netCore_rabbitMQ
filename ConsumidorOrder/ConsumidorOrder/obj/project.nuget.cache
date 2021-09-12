@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dzKg7a2HAMXYy4y8zwdWz6BA/Hx2VUJ2jgDBCqx94AYHS3uy6uByyDqhAhaXwnmiyx83hJik5WwsWIUFjxr7CQ==",
+  "dgSpecHash": "KBgcARa3G8CyhSy4yA/g7hGZIZCM908prwJMbEt+U7kQPfd62H1KMwU4fly67wi9Mto4r5qpRqiSmhfweqdIyQ==",
   "success": true,
-  "projectFilePath": "E:\\projetos\\.net Core\\rabbitMQ\\ConsumidorOrder\\ConsumidorOrder\\ConsumidorOrder.csproj",
+  "projectFilePath": "E:\\projetos\\.net Core\\.netCore_rabbitMQ\\ConsumidorOrder\\ConsumidorOrder\\ConsumidorOrder.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\matheus\\.nuget\\packages\\rabbitmq.client\\6.2.2\\rabbitmq.client.6.2.2.nupkg.sha512",
     "C:\\Users\\matheus\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",

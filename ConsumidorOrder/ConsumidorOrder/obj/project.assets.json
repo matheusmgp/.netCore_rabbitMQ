@@ -114,11 +114,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\projetos\\.net Core\\rabbitMQ\\ConsumidorOrder\\ConsumidorOrder\\ConsumidorOrder.csproj",
+      "projectUniqueName": "E:\\projetos\\.net Core\\.netCore_rabbitMQ\\ConsumidorOrder\\ConsumidorOrder\\ConsumidorOrder.csproj",
       "projectName": "ConsumidorOrder",
-      "projectPath": "E:\\projetos\\.net Core\\rabbitMQ\\ConsumidorOrder\\ConsumidorOrder\\ConsumidorOrder.csproj",
+      "projectPath": "E:\\projetos\\.net Core\\.netCore_rabbitMQ\\ConsumidorOrder\\ConsumidorOrder\\ConsumidorOrder.csproj",
       "packagesPath": "C:\\Users\\matheus\\.nuget\\packages\\",
-      "outputPath": "E:\\projetos\\.net Core\\rabbitMQ\\ConsumidorOrder\\ConsumidorOrder\\obj\\",
+      "outputPath": "E:\\projetos\\.net Core\\.netCore_rabbitMQ\\ConsumidorOrder\\ConsumidorOrder\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\matheus\\AppData\\Roaming\\NuGet\\NuGet.Config",

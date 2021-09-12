@@ -114,11 +114,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\projetos\\.net Core\\rabbitMQ\\WebAppOrder\\WebAppOrder\\WebAppOrder.csproj",
+      "projectUniqueName": "E:\\projetos\\.net Core\\.netCore_rabbitMQ\\WebAppOrder\\WebAppOrder\\WebAppOrder.csproj",
       "projectName": "WebAppOrder",
-      "projectPath": "E:\\projetos\\.net Core\\rabbitMQ\\WebAppOrder\\WebAppOrder\\WebAppOrder.csproj",
+      "projectPath": "E:\\projetos\\.net Core\\.netCore_rabbitMQ\\WebAppOrder\\WebAppOrder\\WebAppOrder.csproj",
       "packagesPath": "C:\\Users\\matheus\\.nuget\\packages\\",
-      "outputPath": "E:\\projetos\\.net Core\\rabbitMQ\\WebAppOrder\\WebAppOrder\\obj\\",
+      "outputPath": "E:\\projetos\\.net Core\\.netCore_rabbitMQ\\WebAppOrder\\WebAppOrder\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\matheus\\AppData\\Roaming\\NuGet\\NuGet.Config",

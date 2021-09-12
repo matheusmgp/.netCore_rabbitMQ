@@ -9,6 +9,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using WebAppOrder.Entities;
+using WebAppOrder.Interfaces;
 
 namespace WebAppOrder
 {
@@ -25,6 +27,7 @@ namespace WebAppOrder
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.AddSingleton<IMyConnectionFactory, ConnectionFactoryCreator>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

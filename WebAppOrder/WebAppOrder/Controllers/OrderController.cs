@@ -5,6 +5,7 @@ using System;
 using System.Text;
 using System.Text.Json;
 using WebAppOrder.Entities;
+using WebAppOrder.Interfaces;
 
 namespace WebAppOrder.Controllers
 {
@@ -13,10 +14,13 @@ namespace WebAppOrder.Controllers
     public class OrderController : ControllerBase
     {
         private ILogger<OrderController> _logger;
+        private IMyConnectionFactory _myConnectionFactory;
+       
 
-        public OrderController(ILogger<OrderController> logger)
+        public OrderController(ILogger<OrderController> logger, IMyConnectionFactory myConnectionFactory)
         {
             _logger = logger;
+            _myConnectionFactory = myConnectionFactory;
         }
 
 
@@ -25,23 +29,21 @@ namespace WebAppOrder.Controllers
         {
             try
             {
+                var channel = _myConnectionFactory.GetChannel();
+                string message = JsonSerializer.Serialize(order);
 
-                var factory = new ConnectionFactory() { HostName = "localhost" };
-                using (var connection = factory.CreateConnection())
-                using (var channel = connection.CreateModel())
-                {
-                   
-                    string message = JsonSerializer.Serialize(order);
+                var body = Encoding.UTF8.GetBytes(message);
 
-                    var body = Encoding.UTF8.GetBytes(message);
-
-                    channel.BasicPublish(exchange: "Orders",
-                                         routingKey: "orderQueueKey",
-                                         basicProperties: null,
-                                         body: body);
-                    Console.WriteLine(" [x] Sent {0}", message);
-                }
+                channel.BasicPublish(exchange: "Orders",
+                                     routingKey: "orderQueueKey",
+                                     basicProperties: null,
+                                     body: body);
+              
+               
                 return Accepted(order);
+
+
+
             }
             catch (Exception e)
             {
